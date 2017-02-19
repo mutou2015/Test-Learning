@@ -22,20 +22,20 @@ public class TransactionService2 {
 		return person;
 	}
 	
-	@Transactional(propagation=Propagation.REQUIRED)
+	@Transactional(propagation=Propagation.NOT_SUPPORTED)
 	public void transactionService2_insert(){
 		Person person=new Person();
 		person.setAge(1);
 		person.setName("service2");
 		persondao.insert(person);
-		throw new RuntimeException();
+		
 	}
 	
 	@Transactional(propagation=Propagation.REQUIRED)
 	public void transactionService2_insert2(){
 		Person person=new Person();
 		person.setAge(1);
-		person.setName("service2");
+		person.setName("service22");
 		persondao.insert(person);
 		
 	}
