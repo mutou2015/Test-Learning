@@ -101,8 +101,9 @@ public class TransactionService {
 	 * 
 	 * test_required_supports2()执行，创建事务
 	 * transactionService2_insert()执行 加入事务
+	 * transactionService2_insert()抛出异常
 	 * 程序中止
-	 * transactionService2_insert()执行的插入成功
+	 * transactionService2_insert()执行的插入失败
 	 * 
 	 * */
 	@Transactional(propagation=Propagation.REQUIRED)
