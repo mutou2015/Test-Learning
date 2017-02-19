@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="com.mmz.dao.PersonDao">  
+  
+    <resultMap type="com.mmz.entity.Person" id="resultmap">  
+       
+        <result property="name" column="name"/>  
+        <result property="age" column="AGE"/>  
+       
+    </resultMap>  
+      
+    <!-- 查询学生，根据id -->  
+     <insert id="insert" parameterType="com.mmz.entity.Person" >
+     	<![CDATA[ 
+           INSERT INTO PERSON VALUES(#{name},#{age})
+        ]]>  
+     </insert>
+   
+      
+    <!-- 查询学生列表 -->  
+    <select id="get"  parameterType="String" resultType="com.mmz.entity.Person" >  
+        <![CDATA[ 
+            SELECT * from person where name=#{_parameter}
+        ]]>   
+    </select>  
+      
+</mapper>  
