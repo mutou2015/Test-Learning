@@ -47,5 +47,29 @@ public class Test_transaction_propagation {
 		
 		transactionService.test_required_supports2();
 	}
+	
+	@Test
+	public void test_requires_new_nested() {
+		
+		transactionService.test_requires_new_nested();
+	}
+	
+	@Test
+	public void test_requires_new_nested2() {
+		
+		transactionService.test_requires_new_nested2();
+	}
+	
+	@Test
+	public void test_mandatory() {
+		
+		transactionService.test_mandatory();
+	}
 
+	@Test
+	public void test_not_supported() {
+		
+		transactionService.test_not_supported();
+	}
+	
 }

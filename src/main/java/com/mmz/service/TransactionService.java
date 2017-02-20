@@ -111,6 +111,84 @@ public class TransactionService {
 		transactionService2.transactionService2_insert();
 	}
 	
+	/**
+	 * test_requires_new_nested():Propagation.REQUIRED; 
+	 * transactionService2_insert()：Propagation.REQUIRES_NEW; 
+	 *
+	 * 
+	 * test_requires_new_nested()执行，创建事务
+	 * transactionService2_insert()执行 挂起当前事务 创建新事务，执行完毕提交
+	 * transactionService_insert();执行
+	 * test_requires_new_nested()继续执行，抛出异常回滚
+	 * 程序中止
+	 * transactionService_insert()执行的插入失败，transactionService2_insert()执行的插入成功
+	 * 
+	 * */
+	@Transactional(propagation=Propagation.REQUIRED)
+	public void test_requires_new_nested(){
+		transactionService2.transactionService2_insert();
+		transactionService_insert();
+		throw new RuntimeException();
+	}
+	
+	/**
+	 * test_requires_new_nested():Propagation.REQUIRED; 
+	 * transactionService2_insert()：Propagation.NESTED; 
+	 *
+	 * 
+	 * test_requires_new_nested()执行，创建事务
+	 * transactionService2_insert()执行 挂起当前事务 创建回滚点，创建子(嵌套)事务(Creating nested transaction)，执行完毕，释放回滚点
+	 * transactionService_insert();执行
+	 * test_requires_new_nested()继续执行，抛出异常回滚
+	 * 程序中止
+	 * transactionService_insert()，transactionService2_insert执行的插入都失败，因为nested不会立刻提交，而是和父事务一起提交和回滚
+	 * 
+	 * */
+	@Transactional(propagation=Propagation.REQUIRED)
+	public void test_requires_new_nested2(){
+		transactionService2.transactionService2_insert();
+		transactionService_insert();
+		throw new RuntimeException();
+	}
+	
+	/**
+	 * test_requires_new_nested():Propagation.SUPPORTS; 
+	 * transactionService2_insert()：Propagation.MANDATORY; 
+	 * test_requires_new_nested()执行，没有创建事务
+	 * transactionService2_insert() mandatory必须在事务中运行，否则抛出异常，要注意的是，supports即使抛出异常，如果没在事务中执行，异常之前
+	 * 的操作仍然会提交，但是mandatory不会，在执行之前检测到不在事务中，则立即报错！
+	 * transactionService_insert() 继续抛异常
+	 * 
+	 * 程序中止
+	 * transactionService2_insert()插入显然不会成功
+	 * 
+	 * */
+	@Transactional(propagation=Propagation.SUPPORTS)
+	public void test_mandatory(){
+		transactionService2.transactionService2_insert();
+		
+	}
+	
+	/**
+	 * test_not_supported():Propagation.REQUIRED; 
+	 * transactionService2_insert()：Propagation.NOT_SUPPORTED; 
+	 * transactionService2_insert2(); Propagation.REQUIRED; 
+	 * test_requires_new_nested()执行，创建事务
+	 * transactionService2_insert2(); 加入事务
+	 * transactionService2_insert(); 执行，挂起当前事务，切换为自动提交
+	 * test_not_supported() 恢复事务，执行抛异常，回滚
+	 * 程序中止
+	 * transactionService2_insert()()插入成功，transactionService2_insert2()因为在主事务中，被回滚
+	 * 
+	 * */
+	@Transactional(propagation=Propagation.REQUIRED)
+	public void test_not_supported(){
+		transactionService2.transactionService2_insert2();
+		transactionService2.transactionService2_insert();
+		throw new RuntimeException();
+		
+	}
+	
 	
 	
 	@Transactional(propagation=Propagation.REQUIRES_NEW)
