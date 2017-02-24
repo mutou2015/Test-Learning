@@ -9,7 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.*;
 
 import com.mmz.dao.PersonDao;
-import com.mmz.entity.Person;
+
 import com.mmz.service.TransactionService;
 
 @RunWith(SpringJUnit4ClassRunner.class)  

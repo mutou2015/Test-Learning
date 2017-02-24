@@ -75,4 +75,9 @@
 	</aop:config>
 	 <!--注解方式实现声明式事务，指定注解方式实现事务-->
     <tx:annotation-driven transaction-manager="transactionManager" />
+    
+    <bean id="person" class="com.mmz.entity.Person">
+		<property name="name" value="Mark"></property>
+		<property name="age" value="23"></property>
+	</bean>
 </beans>            
