@@ -91,7 +91,6 @@ public class WebSocketTest {
     public static synchronized void addOnlineCount() {
         WebSocketTest.onlineCount++;
     }
-
     public static synchronized void subOnlineCount() {
         WebSocketTest.onlineCount--;
     }
