@@ -1,184 +1,152 @@
-2017-02-19 13:51:14,437 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mvc.xml]
-2017-02-19 13:51:15,104 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring.xml]
-2017-02-19 13:51:15,330 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
-2017-02-19 13:51:16,510 INFO[org.springframework.context.support.GenericApplicationContext:513] - Refreshing org.springframework.context.support.GenericApplicationContext@17471e0: startup date [Sun Feb 19 13:51:16 CST 2017]; root of context hierarchy
-2017-02-19 13:51:17,098 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
-2017-02-19 13:51:18,087 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
-2017-02-19 13:51:18,397 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2017-02-19 13:51:20,615 INFO[com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource:462] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge11v9mnka9vw1uvi8dc|2a6ff, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge11v9mnka9vw1uvi8dc|2a6ff, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-02-19 13:51:21,271 INFO[org.springframework.context.support.GenericApplicationContext:873] - Closing org.springframework.context.support.GenericApplicationContext@17471e0: startup date [Sun Feb 19 13:51:16 CST 2017]; root of context hierarchy
-2017-02-19 21:24:18,675 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mvc.xml]
-2017-02-19 21:24:18,873 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring.xml]
-2017-02-19 21:24:18,958 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
-2017-02-19 21:24:20,784 INFO[org.springframework.context.support.GenericApplicationContext:513] - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 21:24:20 CST 2017]; root of context hierarchy
-2017-02-19 21:24:20,895 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
-2017-02-19 21:24:21,203 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
-2017-02-19 21:24:21,373 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2017-02-19 21:24:22,214 INFO[com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource:462] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge15y9mo0gwgy11778jk|658c5a19, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15y9mo0gwgy11778jk|658c5a19, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-02-19 21:24:42,199 WARN[com.mchange.v2.async.ThreadPoolAsynchronousRunner:608] - com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@561d3720 -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks!
-2017-02-19 21:24:42,204 WARN[com.mchange.v2.async.ThreadPoolAsynchronousRunner:624] - com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@561d3720 -- APPARENT DEADLOCK!!! Complete Status: 
-	Managed Threads: 3
-	Active Threads: 3
-	Active Tasks: 
-		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@267c4983 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0)
-		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@28b44094 (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1)
-		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@5ec58e0e (com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2)
-	Pending Tasks: 
-		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@79c826e7
-		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3d3c580c
-Pool thread stack traces:
-	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0,5,main]
-		java.lang.Thread.sleep(Native Method)
-		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
-		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
-	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1,5,main]
-		java.lang.Thread.sleep(Native Method)
-		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
-		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
-	Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2,5,main]
-		java.lang.Thread.sleep(Native Method)
-		com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1805)
-		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
-
-
-2017-02-19 21:24:51,563 WARN[com.mchange.v2.resourcepool.BasicResourcePool:1841] - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@28b44094 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
-com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'test'
-	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
-	at com.mysql.jdbc.Util.getInstance(Util.java:383)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1062)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4208)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4140)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:925)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1747)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1287)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2494)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2527)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2309)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
-	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:419)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
-	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
-	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
-	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
-	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
-	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
-	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
-	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
-	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
-2017-02-19 21:24:51,563 WARN[com.mchange.v2.resourcepool.BasicResourcePool:1841] - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@267c4983 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
-com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'test'
-	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
-	at com.mysql.jdbc.Util.getInstance(Util.java:383)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1062)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4208)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4140)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:925)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1747)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1287)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2494)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2527)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2309)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
-	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:419)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
-	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
-	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
-	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
-	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
-	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
-	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
-	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
-	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
-2017-02-19 21:24:51,563 WARN[com.mchange.v2.resourcepool.BasicResourcePool:1841] - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@5ec58e0e -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
-com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'test'
-	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
-	at com.mysql.jdbc.Util.getInstance(Util.java:383)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1062)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4208)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4140)
-	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:925)
-	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1747)
-	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1287)
-	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2494)
-	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2527)
-	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2309)
-	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
-	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
-	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
-	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:419)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:344)
-	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
-	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
-	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
-	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
-	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
-	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
-	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
-	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
-2017-02-19 21:24:51,606 INFO[org.springframework.context.support.GenericApplicationContext:873] - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 21:24:20 CST 2017]; root of context hierarchy
-2017-02-19 21:28:22,804 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mvc.xml]
-2017-02-19 21:28:22,955 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring.xml]
-2017-02-19 21:28:23,031 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
-2017-02-19 21:28:24,224 INFO[org.springframework.context.support.GenericApplicationContext:513] - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 21:28:24 CST 2017]; root of context hierarchy
-2017-02-19 21:28:24,339 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
-2017-02-19 21:28:24,634 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
-2017-02-19 21:28:24,760 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2017-02-19 21:28:25,476 INFO[com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource:462] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge15y9mo0m4av13v1z22|658c5a19, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15y9mo0m4av13v1z22|658c5a19, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-02-19 21:28:25,715 INFO[org.springframework.context.support.GenericApplicationContext:873] - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 21:28:24 CST 2017]; root of context hierarchy
-2017-02-19 21:54:39,667 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mvc.xml]
-2017-02-19 21:54:39,806 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring.xml]
-2017-02-19 21:54:39,890 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
-2017-02-19 21:54:41,009 INFO[org.springframework.context.support.GenericApplicationContext:513] - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 21:54:41 CST 2017]; root of context hierarchy
-2017-02-19 21:54:41,128 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
-2017-02-19 21:54:41,418 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
-2017-02-19 21:54:41,533 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2017-02-19 21:54:42,259 INFO[com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource:462] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge15y9mo1jwyg138mu7m|389c4eb1, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15y9mo1jwyg138mu7m|389c4eb1, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-02-19 21:54:42,511 INFO[org.springframework.context.support.GenericApplicationContext:873] - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 21:54:41 CST 2017]; root of context hierarchy
-2017-02-19 21:58:07,067 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mvc.xml]
-2017-02-19 21:58:07,205 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring.xml]
-2017-02-19 21:58:07,281 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
-2017-02-19 21:58:08,400 INFO[org.springframework.context.support.GenericApplicationContext:513] - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 21:58:08 CST 2017]; root of context hierarchy
-2017-02-19 21:58:08,526 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
-2017-02-19 21:58:08,823 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
-2017-02-19 21:58:08,940 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2017-02-19 21:58:09,673 INFO[com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource:462] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge15y9mo1oczscnuhf4|4b34fff9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15y9mo1oczscnuhf4|4b34fff9, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-02-19 21:58:09,929 INFO[org.springframework.context.support.GenericApplicationContext:873] - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 21:58:08 CST 2017]; root of context hierarchy
-2017-02-19 22:06:26,669 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mvc.xml]
-2017-02-19 22:06:26,806 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring.xml]
-2017-02-19 22:06:26,881 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
-2017-02-19 22:06:28,002 INFO[org.springframework.context.support.GenericApplicationContext:513] - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 22:06:28 CST 2017]; root of context hierarchy
-2017-02-19 22:06:28,094 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
-2017-02-19 22:06:28,395 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
-2017-02-19 22:06:28,517 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2017-02-19 22:06:29,234 INFO[org.springframework.context.support.GenericApplicationContext:873] - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 22:06:28 CST 2017]; root of context hierarchy
-2017-02-19 22:18:33,351 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mvc.xml]
-2017-02-19 22:18:33,508 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring.xml]
-2017-02-19 22:18:33,611 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
-2017-02-19 22:18:34,747 INFO[org.springframework.context.support.GenericApplicationContext:513] - Refreshing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 22:18:34 CST 2017]; root of context hierarchy
-2017-02-19 22:18:34,862 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
-2017-02-19 22:18:35,158 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
-2017-02-19 22:18:35,278 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
-2017-02-19 22:18:36,009 INFO[com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource:462] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge15y9mo2en8j1blruym|16aa8654, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15y9mo2en8j1blruym|16aa8654, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
-2017-02-19 22:18:36,260 INFO[org.springframework.context.support.GenericApplicationContext:873] - Closing org.springframework.context.support.GenericApplicationContext@6d00a15d: startup date [Sun Feb 19 22:18:34 CST 2017]; root of context hierarchy
+2017-02-27 11:12:44,259 INFO[org.springframework.context.support.ClassPathXmlApplicationContext:513] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@11b6341: startup date [Mon Feb 27 11:12:44 CST 2017]; root of context hierarchy
+2017-02-27 11:12:44,321 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring.xml]
+2017-02-27 11:12:45,163 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-02-27 11:12:46,007 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
+2017-02-27 11:12:46,553 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-02-27 11:15:16,243 INFO[org.springframework.context.support.FileSystemXmlApplicationContext:513] - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@55010f: startup date [Mon Feb 27 11:15:16 CST 2017]; root of context hierarchy
+2017-02-27 11:15:16,274 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from file [C:\Users\Administrator\git\Test-Learning\spring.xml]
+2017-02-27 11:17:24,751 INFO[org.springframework.context.support.FileSystemXmlApplicationContext:513] - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@156bbf: startup date [Mon Feb 27 11:17:24 CST 2017]; root of context hierarchy
+2017-02-27 11:17:24,782 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]
+2017-02-27 11:17:25,141 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-02-27 11:17:25,407 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
+2017-02-27 11:17:25,517 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-02-27 11:18:41,542 INFO[org.springframework.context.support.FileSystemXmlApplicationContext:513] - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@834c87: startup date [Mon Feb 27 11:18:41 CST 2017]; root of context hierarchy
+2017-02-27 11:18:41,573 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]
+2017-02-27 13:32:00,712 INFO[org.springframework.beans.factory.support.DefaultListableBeanFactory:749] - Overriding bean definition for bean 'dataSource': replacing [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]] with [Generic bean: class [com.mchange.v2.c3p0.ComboPooledDataSource]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]]
+2017-02-27 13:32:42,094 INFO[org.springframework.beans.factory.support.DefaultListableBeanFactory:749] - Overriding bean definition for bean 'sqlSessionFactory': replacing [Generic bean: class [org.mybatis.spring.SqlSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]] with [Generic bean: class [org.mybatis.spring.SqlSessionFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]]
+2017-02-27 13:32:42,097 INFO[org.springframework.beans.factory.support.DefaultListableBeanFactory:749] - Overriding bean definition for bean 'transactionManager': replacing [Generic bean: class [org.springframework.jdbc.datasource.DataSourceTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]] with [Generic bean: class [org.springframework.jdbc.datasource.DataSourceTransactionManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]]
+2017-02-27 13:32:42,099 INFO[org.springframework.beans.factory.support.DefaultListableBeanFactory:749] - Overriding bean definition for bean 'transactionAdvice': replacing [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.transaction.interceptor.TransactionInterceptor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-02-27 13:32:42,100 INFO[org.springframework.beans.factory.support.DefaultListableBeanFactory:749] - Overriding bean definition for bean 'transactionPointcut': replacing [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.aop.aspectj.AspectJExpressionPointcut]; scope=prototype; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+2017-02-27 13:32:42,101 INFO[org.springframework.beans.factory.support.DefaultListableBeanFactory:749] - Overriding bean definition for bean 'person': replacing [Generic bean: class [com.mmz.entity.Person]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]] with [Generic bean: class [com.mmz.entity.Person]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]]
+2017-02-27 13:38:28,506 WARN[org.mybatis.spring.mapper.ClassPathMapperScanner:226] - Skipping MapperFactoryBean with name 'personDao' and 'com.mmz.dao.PersonDao' mapperInterface. Bean already defined with the same name!
+2017-02-27 13:38:28,508 WARN[org.mybatis.spring.mapper.ClassPathMapperScanner:158] - No MyBatis mapper was found in '[com.mmz.dao]' package. Please check your configuration.
+2017-02-27 13:38:40,021 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-02-27 13:38:40,047 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-02-27 13:38:57,875 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
+2017-02-27 13:38:58,139 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-02-27 13:41:44,006 INFO[com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource:462] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge11v9myzd8331n6hkh9|22d801, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge11v9myzd8331n6hkh9|22d801, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-02-27 13:49:40,832 INFO[org.springframework.context.support.FileSystemXmlApplicationContext:513] - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@156bbf: startup date [Mon Feb 27 13:49:40 CST 2017]; root of context hierarchy
+2017-02-27 13:49:40,877 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]
+2017-02-27 13:50:07,768 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-02-27 13:50:10,025 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
+2017-02-27 13:50:10,142 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-02-27 13:51:07,374 INFO[org.springframework.context.support.FileSystemXmlApplicationContext:513] - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@834c87: startup date [Mon Feb 27 13:51:07 CST 2017]; root of context hierarchy
+2017-02-27 13:51:07,433 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]
+2017-02-27 13:51:20,030 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-02-27 13:51:26,407 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
+2017-02-27 13:51:26,522 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-02-27 13:54:40,119 INFO[org.springframework.context.support.FileSystemXmlApplicationContext:513] - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@834c87: startup date [Mon Feb 27 13:54:40 CST 2017]; root of context hierarchy
+2017-02-27 13:54:40,181 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]
+2017-02-27 13:54:58,101 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-02-27 13:55:42,357 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
+2017-02-27 13:55:42,473 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-02-27 13:59:26,040 INFO[org.springframework.context.support.FileSystemXmlApplicationContext:513] - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@156bbf: startup date [Mon Feb 27 13:59:26 CST 2017]; root of context hierarchy
+2017-02-27 13:59:26,101 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]
+2017-02-27 14:00:41,530 INFO[com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource:462] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge11v9myzyr3g14g9p0y|c05dc5, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge11v9myzyr3g14g9p0y|c05dc5, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-02-27 14:20:08,669 INFO[org.springframework.context.support.FileSystemXmlApplicationContext:513] - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@834c87: startup date [Mon Feb 27 14:20:08 CST 2017]; root of context hierarchy
+2017-02-27 14:20:08,745 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from file [C:\Users\Administrator\git\Test-Learning\src\main\resources\spring.xml]
+2017-02-27 14:20:35,692 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-02-27 14:31:45,838 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
+2017-02-27 14:31:45,953 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-02-27 17:27:06,615 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2017-02-27 17:27:06,808 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring.xml]
+2017-02-27 17:27:06,898 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-02-27 17:27:28,784 ERROR[org.springframework.test.context.TestContextManager:334] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@9fd086] to prepare test instance [com.mmz.test.Test_transaction_propagation@1e42d5a]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:101)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:331)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:213)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:290)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:233)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:176)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [spring-mybatis.xml]; nested exception is java.net.ConnectException: Connection timed out: connect
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:409)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:251)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadBeanDefinitions(AbstractGenericContextLoader.java:253)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:122)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:100)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:250)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContextInternal(CacheAwareContextLoaderDelegate.java:64)
+	at org.springframework.test.context.CacheAwareContextLoaderDelegate.loadContext(CacheAwareContextLoaderDelegate.java:91)
+	... 31 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:851)
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(HttpURLConnection.java:2411)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1558)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:643)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startEntity(XMLEntityManager.java:1297)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.startDTDEntity(XMLEntityManager.java:1264)
+	at com.sun.org.apache.xerces.internal.impl.XMLDTDScannerImpl.setInputSource(XMLDTDScannerImpl.java:263)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1164)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1050)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:964)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:428)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:390)
+	... 44 more
+2017-02-27 17:27:28,808 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2017-02-27 17:27:28,848 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring.xml]
+2017-02-27 17:27:28,889 INFO[org.springframework.beans.factory.xml.XmlBeanDefinitionReader:316] - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-02-27 17:27:30,847 INFO[org.springframework.context.support.GenericApplicationContext:513] - Refreshing org.springframework.context.support.GenericApplicationContext@1e17d0b: startup date [Mon Feb 27 17:27:30 CST 2017]; root of context hierarchy
+2017-02-27 17:27:31,012 INFO[org.springframework.beans.factory.config.PropertyPlaceholderConfigurer:172] - Loading properties file from class path resource [jdbc.properties]
+2017-02-27 17:27:31,017 INFO[org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor:141] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-02-27 17:27:31,360 INFO[com.mchange.v2.log.MLog:80] - MLog clients using log4j logging.
+2017-02-27 17:27:31,471 INFO[com.mchange.v2.c3p0.C3P0Registry:204] - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2017-02-27 17:27:32,353 INFO[com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource:462] - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge11v9mz7j5f6pd0ft6|b3024b, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge11v9mz7j5f6pd0ft6|b3024b, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2017-02-27 17:27:32,986 INFO[org.springframework.context.support.GenericApplicationContext:873] - Closing org.springframework.context.support.GenericApplicationContext@1e17d0b: startup date [Mon Feb 27 17:27:30 CST 2017]; root of context hierarchy
