@@ -10,6 +10,7 @@ import com.mmz.entity.Person;
 
 public class Test_IOC_type {
 
+	
 	public static void main(String[] args) {
 		//ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
 		FileSystemXmlApplicationContext ctx = new FileSystemXmlApplicationContext("/src/main/resources/spring.xml");
