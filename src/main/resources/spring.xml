@@ -16,6 +16,9 @@
             http://www.springframework.org/schema/tx/spring-tx-3.0.xsd 
             http://www.springframework.org/schema/websocket http://www.springframework.org/schema/websocket/spring-websocket.xsd">
 
+	 <bean id="person" class="com.mmz.entity.Person">
+    	<property name="age" value="11"></property>
+    </bean>
 	<!-- 扫描service、dao组件 -->
 	<context:component-scan base-package="com.mmz" />
 	<!-- 分解配置 jdbc.properites -->
@@ -78,6 +81,13 @@
 	 <!--注解方式实现声明式事务，指定注解方式实现事务-->
     <tx:annotation-driven transaction-manager="transactionManager" />
     
+	   <!-- 拦截器配置 -->
+	<mvc:interceptors>
+	        <!-- 配置Token拦截器，防止用户重复提交数据 -->
+	        <mvc:interceptor>
+	            <mvc:mapping path="/**"/><!--这个地方时你要拦截得路径 我这个意思是拦截所有得URL-->
+	            <bean class="com.mmz.test.token.TokenInterceptor"/><!--class文件路径改成你自己写得拦截器路径！！ -->
+	        </mvc:interceptor>
+	</mvc:interceptors>
    
-    
 </beans>            
