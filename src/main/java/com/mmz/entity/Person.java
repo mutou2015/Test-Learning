@@ -17,6 +17,10 @@ public class Person {
 		this.age = age;
 	}
 	
+	public Person(){
+		System.out.println("person's constructor is called!");
+	}
+	
 	
 
 }

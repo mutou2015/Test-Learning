@@ -32,7 +32,6 @@ public class Test_Type {
 		Map<String,String> e=new HashMap<String,String>();
 		System.out.println(e instanceof Collection);  // false Map不是collection的实现
 		
-		
 	}
 
 }
