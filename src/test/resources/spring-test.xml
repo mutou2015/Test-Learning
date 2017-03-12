@@ -16,11 +16,19 @@
             http://www.springframework.org/schema/tx/spring-tx-3.0.xsd 
             http://www.springframework.org/schema/websocket http://www.springframework.org/schema/websocket/spring-websocket.xsd">
 
-	 <bean id="person" class="com.mmz.entity.Person">
-    	<property name="age" value="11"></property>
-    </bean>
+	 
 	<!-- 扫描service、dao组件 -->
 	<context:component-scan base-package="com.mmz.test" />
 	
-   
+	
+   <aop:config>
+   	<aop:aspect ref="testXmlAop">
+  		 
+   		<aop:pointcut expression="execution(* com.mmz.test.aop.Test_AopService.test(..))" id="testpoint"/>
+   		<aop:before method="before" pointcut-ref="testpoint"/>
+   		<aop:after method="after" pointcut-ref="testpoint"/>
+   </aop:aspect>
+   		
+   		
+   </aop:config>
 </beans>            
