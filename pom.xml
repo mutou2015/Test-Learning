@@ -17,7 +17,6 @@
   		<groupId>junit</groupId>
   		<artifactId>junit</artifactId>
   		<version>4.11</version>
-  		<scope>test</scope>
   	</dependency>
   	<!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
 	<dependency>
@@ -64,7 +63,7 @@
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-mock</artifactId>
   		<version>2.0.8</version>
-  		<scope>test</scope>
+  		
   	</dependency>
   	<dependency>
   		<groupId>log4j</groupId>
@@ -120,7 +119,7 @@
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-test</artifactId>
   		<version>4.0.6.RELEASE</version>
-  		<scope>test</scope>
+  		
   	</dependency>
   	 <dependency>  
             <groupId>com.alibaba</groupId>  
