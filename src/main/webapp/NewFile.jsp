@@ -1,8 +1,14 @@
-<!DOCTYPE HTML>  
-<html>  
-  <head>  
-    <title>My WebSocket</title>  
-     <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js" ></script> 
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js" ></script> 
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ 
 <script >  
   
   function login(){
@@ -74,19 +80,6 @@
   });
       
   </script>  
-  </head>  
-     
-  <body>  
-  <!--  <form action="" id="login">
-   		username:<input type="text" />
-   		password:<input type="password" />
-   		submit:<input type="submit"/>
-   </form> -->
-  
-   <h3 id="wel" sytle="display:none">welcome</h3>
-  
-    
-  </body>  
- 
- 
-</html>  
+
+</body>
+</html>
