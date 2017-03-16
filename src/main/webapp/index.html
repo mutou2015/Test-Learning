@@ -33,7 +33,7 @@
       }  
          
       //接收到消息的回调方法  
-      websocket.onmessage = function(){  
+      websocket.onmessage = function(event){  
           setMessageInnerHTML(event.data);  
       }  
          
